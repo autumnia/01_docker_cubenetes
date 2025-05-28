@@ -12,9 +12,7 @@
 
 ## 샘플 2
 ```
-    docker run -it --name prome01 -h prome01 \
+    docker run -it --name prom -h prom \
     -p 9090:9090 \
     -d prom/prometheus-linux-amd64
 ```
-
-
