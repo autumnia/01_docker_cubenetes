@@ -14,8 +14,6 @@
 ```
     docker run -it --name prome01 -h prome01 \
     -p 9090:9090 \
-    -v /app/prome01/data:/app/prome01/data \
-    -v /app/prome01/conf:/etc/prometheus \
     -d prom/prometheus-linux-amd64
 ```
 
