@@ -1,6 +1,6 @@
 # 도커에 Postgres 설치
 
-```
+```yml
     docker run -it \
     --name postgres -h postgres01 \
     -p 5432:5432 \
