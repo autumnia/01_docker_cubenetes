@@ -58,6 +58,27 @@
 ## delete
 	kubectl delete pod 파드명 --namespace default
 
+
+## 약어찾기
+	kubectl api-resources	
+
+## 유틸
+	자동완성, alias, 리소스이름축약
+	tools: stern, k9s, starship
+	plugin: kubectx, kubens  
+
+* stern
+	특정 네임스페이스의 모든 파드 로그 실시간 조회
+	stern . -n default
+
+	특정 파드명 패턴 로그 조회
+	stern "web-*" -n production
+
+	특정 컨테이너 로그만 조회
+	stern pod-name -c container-name
+
+
+
 ---
 ---
 ## 연습용
